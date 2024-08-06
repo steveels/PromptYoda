@@ -56,7 +56,7 @@ textarea{
     background-color:rgb(4, 71, 116);
     padding: 8px;
     cursor: pointer;
-    border: solid 1px #DF711B;
+    border: solid 2px #DF711B;
     border-radius: 5px;
     font-size: 20px;
 
@@ -66,30 +66,28 @@ textarea{
     background-color:#64C9CF;
     padding: 10px;
     cursor: pointer;
-    border: solid 1px #DF711B;
+    border: solid 2px #DF711B;
     border-radius: 8px;
     font-size: 20px;
 }
 
 
-@media (max-width:420px){
+@media (max-width:700px){
     body{
         font-family: 'Times New Roman', Times, serif;
         font-size: 22px;
         text-align: center;
-        background-color: #FDE49C;
         color: white;
     
     }
     .head{
         text-align: center;
-        color: #DF711B;
+        color: white;
         margin: 0%;
         padding: 5px;
     }
     .wrapper{
         margin-top: 0.5%;
-        border: solid 3px #DF711B;
         border-radius: 8px;
         margin-left: 3%;
         margin-right: 3%;
@@ -103,9 +101,8 @@ textarea{
     
     }
     textarea{
-        border: solid 4px #DF711B;
         border-radius: 5px;
-        background-color: #D3B485;
+        background-color: rgb(4, 71, 116);
         width: 90%;
         color: white;
         font-size: 20px;
@@ -119,10 +116,10 @@ textarea{
     }
     #translate{
         color: white;
-        background-color:#DF711B;
+        background-color:rgb(4, 71, 116);
         padding: 8px;
         cursor: pointer;
-        border: solid 3px #DF711B;
+        border: solid 2px #DF711B;
         border-radius: 5px;
         font-size: 16px;
     
