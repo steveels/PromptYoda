@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Fun Translator</title>
+  </head>
+  <body>
+      <!-- Title -->
+      <div class="head"><h1>Fun Translator</h1></div>
+      <!-- Translation type selection buttons -->
+      <div class="translation-type"><span>
+        <button id="yoda" class="type">Yoda Translation</button>
+      </span></div>
+      <!-- Main translator body -->
+    <div class="wrapper" id="wrapper">
+      <!-- Input text -->
+      <label for="original">Enter Your Text Here</label>
+      <div class="original">
+        <textarea
+          name="original"
+          id="original-text"
+          cols="30"
+          rows="10"
+          placeholder="Write something."
+        ></textarea>
+      </div>
+      <br />
+      <!-- Translate button -->
+      <button id="translate">Translate</button><br /><br />
+      <!-- Translation output -->
+      <label for="translated">Translated text will be  here. </label>
+      <div class="translated">
+        <textarea
+          name="translated"
+          id="translated-text"
+          cols="30"
+          rows="10"
+          placeholder="Your fun translation will be here."
+        ></textarea>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
